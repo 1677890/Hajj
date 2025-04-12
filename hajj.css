@@ -1,0 +1,183 @@
+ body{
+            font-family: Arial,sans-serif;
+        }
+ 
+  .hero{
+background-image:url('HajjB.jpg ');
+  height:700px;
+  
+}
+.content{
+	 width: 100%;
+    position: absolute;
+    top: 
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+   font-size: 30px;
+    margin-top: 10px;
+}
+.content p{
+	margin: 25px auto;
+    font-weight: 25;
+    line-height: 25px;
+}
+.button1{
+      text-align:center;
+width:250px;
+height:50px;
+border-radius:10px;
+border:2px solid aqua;
+font-size:30px;
+color:white;
+background:transparent;
+}
+button:hover{
+background-color:gray;
+}
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.hamburger {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    list-style-type: none;
+    display: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu.show {
+    display: block;
+}
+
+@media (min-width: 600px) {
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+}
+      nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            transition: all ease .4s;
+        }
+.service-card img {
+    width: 100%;
+}
+.service-card button {
+    background-color: #007BFF;
+    color: white;
+    align-item:center;
+}
+.service-card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+   }
+   input{
+width:300px;
+height:50px;
+border-radius :10px;
+}
+#booking {
+	border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+   margin:10px;
+}
+input, select, textarea {
+	width:300px;
+height:50px;
+border-radius :10px;
+}
+#button{
+text-align:center;
+width:100px;
+height:25px;
+border-radius:5px;
+background-color:#007BFF;
+margin-left:100px;
+color:white;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #555;
+}
+.footer {
+    background-color:gray;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: lightblue;
+}
